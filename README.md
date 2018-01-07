@@ -1,4 +1,4 @@
-## Companion Code for Allen Downey's [Think Stats](http://www.greenteapress.com/thinkstats/) 2nd Edition.
+## Code for the chapter exercises of Allen Downey's [Think Stats](http://www.greenteapress.com/thinkstats/) 2nd Edition.
 - an alternative approach to solving the book's exercises, utilising popular libraries from python's "scientific universe", namely **numpy, scipy, statsmodels, pandas, matplotlib, seaborn, etc.**
 
 ---
@@ -12,18 +12,6 @@ Per the book's description :
 
 The code contained in the book, follows an idiomatic object-oriented (OOP) approach ; the author's idea is to build a simple core library that defines discrete & continuous distributions, and then gradually extend that library to explain the various statistical concepts that the book covers. 
 
-This approach has drawn a fair bit of critisism (mostly from coders with experience in python ; the arguments can be easily found in a cursory search for reviews of the book). 
-
-My main difficulties with working with the book's code were :
-
-- *OO design favours encapsulation (in OOP you start small , and extend functionality by adding more features on top)*.
-    
-    While i was progressing through the book, to fully understand what a code snippet was doing, i had to chase down each class method/function, usually across multiple python files. This is actually what one does when trying to use any third-party python library, it's just felt less than ideal in this setting, when the reader's primary focus is on understanding the statistical concepts.
-
-- *The book's master code exists in a vaccum.*
-    
-    This of course has clear benefits (zero dependencies to third party libraries ; no need to keep the code up-to-date.)
-    And yet, if the reader (like myself) has already ventured in Python's scientific libraries (**numpy, scipy, scikit-learn, pandas, matplotlib, etc.**), the book's approach feels a bit like backtracking, and after covering the book, one is at a loss on how to incorporate the code written/reviewed, much less on how to extend it for their own ideas/projects.       
 
 By using python's scientific libraries to build and execute the book's exercises, one can get an introduction on computational statistics, while learning the mechanics and workflow of said libraries ; this way, when one decides to venture in more computational intensive fields (like bayesian analysis, machine learning), the use of the libraries feels less daunting & the transition (to a more functional programming style) less abrupt.
  
