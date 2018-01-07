@@ -26,7 +26,7 @@ By using python's scientific libraries to build and execute the book's exercises
 
 ### Reference Links
 
-- Book's Main Site (along with linkd to all of the author's books) [Think Stats](http://www.greenteapress.com/thinkstats/)
+- Book's Main Site (along with links to all of the author's books) [Think Stats](http://www.greenteapress.com/thinkstats/)
 - Github Repository for the book's [original code](https://github.com/AllenDowney/ThinkStats2)
 - Allen B. Downey's personal blog [Probably Overthinking It](http://allendowney.blogspot.com/) ; contains observations on computational statistics , mini projects , and much more.
 
